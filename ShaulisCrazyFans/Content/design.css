@@ -2,6 +2,11 @@
 =BASIC SETUP
 ------------------------------*/
 
+@font-face {
+   font-family: myCustomFont;
+   src: url("/Content/JuneGloom.ttf");
+}
+
 /* Makeshift CSS Reset */
 * {
 	margin: 0;
@@ -144,11 +149,16 @@ nav {
 		padding: 0 0 22px 0;
 		font-weight: normal;
 		color: #fff;
+        font-family:myCustomFont;
 	}
 	
 	#intro p {
 		padding: 0;
 		color: #d9f499;
+
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
 	}
 	
 	#intro img {
@@ -188,6 +198,11 @@ nav {
 /*------------------------------
 =SIDEBAR
 ------------------------------*/
+aside section#weather {
+    position: relative;
+    background: linear-gradient(#4DDB4D, white);
+}
+
 aside section {
 	margin: 22px 0 0 22px;
 	padding: 11px 22px;
@@ -219,11 +234,6 @@ aside section {
 =BLOG POST
 ------------------------------*/
 
-@font-face {
-   font-family: myCustomFont;
-   src: url("font.ttf");
-}
-
 .blogPost header p, .blogPost header p a {
 		font-size: 14px;
 		font-style: italic;
@@ -243,8 +253,6 @@ aside section {
 	/* Column-gap not implemented yet */
 	-moz-column-gap: 22px;
 	-webkit-column-gap: 22px;
-
-    font-family: myCustomFont;
 }
 
 .blogPost img {

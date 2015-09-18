@@ -56,6 +56,28 @@
                     <li><a href="#">March 2009</a></li>
                 </ul>
             </section>
+            <section id="weather">
+                <header>
+                    <h3>Weather In Tel-Aviv</h3>
+                </header>
+                <div id="weatherDiv" />
+                <script>
+                    var weatherData = @Html.Action("GetWeatherReport", "Home", null);
+                    var p1 = document.createElement("p");
+                    var p2 = document.createElement("p");
+                    p1.innerText = "Weather condition is " + (weatherData.weather[0].main)
+                    p1.style.padding = "0px";
+                    p2.innerText = "Temperature is " + Math.round(weatherData.main.temp - 273.15) + "*c\n\n" +
+                                   "Humidity is " + (weatherData.main.humidity) + "%";
+                    p2.style.padding = "0px";
+                    var icon = document.createElement("img");
+                    icon.src = 'http://openweathermap.org/img/w/' + (weatherData.weather[0].icon) + '.png';
+                    icon.align = "middle"
+                    p1.appendChild(icon);
+                    document.getElementById("weatherDiv").appendChild(p1);
+                    document.getElementById("weatherDiv").appendChild(p2);
+                </script>
+            </section>
         </aside>
     </div>
     <footer>
