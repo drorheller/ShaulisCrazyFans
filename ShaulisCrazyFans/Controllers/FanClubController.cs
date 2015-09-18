@@ -156,11 +156,11 @@ namespace ShaulisCrazyFans.Controllers
 
             foreach (var currFan in db.CrazyFans)
             {
-                lstFansLocations.Add("CityName" + "," + currFan.FirstName + " " + currFan.LastName);
+                lstFansLocations.Add(currFan.City + "," + currFan.FirstName + " " + currFan.LastName);
             }
 
-            //ViewBag.Locations = lstFansLocations.ToArray();
-            ViewBag.Locations = new string[] { "Ashkelon,Ori David", "Rishon Letziyon,Dror Heller", "Gan Yavne,Itai Litov" };
+            ViewBag.Locations = lstFansLocations.ToArray();
+
             return View();
         }
 
