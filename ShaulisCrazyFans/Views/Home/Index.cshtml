@@ -40,12 +40,26 @@
                 <h2>@item.Title</h2>
                 <p>Posted on <time datetime="2009-06-29T23:31+01:00">@item.ReleaseDate</time> by <a href="@item.AuthorSite">@item.Author</a> - <a href="#comments">@item.Comments.Count</a></p>
             </header>
-            <div>
+            <div id="@(item.Id + "div")">
                 <p>@item.Content</p>
                 @{string imgName = "/Uploads/" + @item.Id + ".png";}
                 @if (File.Exists(Server.MapPath("~" + imgName)))
                 {
-                    <img src="@imgName" />
+                    <img src="@imgName" id="@(item.Id + "img")" />
+                    <script>
+                        setTimeout(function () {
+                            var container = document.getElementById("@(item.Id + "div")");
+                            var img = document.getElementById("@(item.Id + "img")");
+                            var canvas = document.createElement("canvas");
+                            canvas.id = "canvas" + "@(item.Id)";
+                            canvas.width = 320;
+                            canvas.height = 240;
+                            container.appendChild(canvas);
+                            var context = canvas.getContext("2d");
+                            context.drawImage(img, 0, 0, 320, 240);
+                            img.remove();
+                        }, 100);
+                    </script>
                 }
                 @{string vidName = "/Uploads/" + @item.Id + ".mp4";}
                 @if (File.Exists(Server.MapPath("~" + vidName)))
@@ -55,9 +69,10 @@
                         Your browser does not support the video tag.
                     </video>
                 }
-               
-                
+
+
             </div>
+
         </article>
     </section>
     <section id="comments">
