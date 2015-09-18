@@ -6,8 +6,6 @@
 
 <h2>Index</h2>
 
-bla bla bla
-
 <table class="table">
     <tr>
         <th>
@@ -46,9 +44,16 @@ bla bla bla
             @Html.DisplayFor(modelItem => item.Content)
         </td>
         <td>
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
         </td>
     </tr>
 }
 
 </table>
+
+<div>
+    @Html.ActionLink("Back to List", "Index", "PostManager", null, null)
+</div>
+

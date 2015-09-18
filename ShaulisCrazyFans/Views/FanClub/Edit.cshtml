@@ -33,6 +33,14 @@
         </div>
 
         <div class="form-group">
+            @Html.LabelFor(model => model.City, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.City)
+                @Html.ValidationMessageFor(model => model.City)
+            </div>
+        </div>
+
+        <div class="form-group">
             @Html.LabelFor(model => model.Gender, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EnumDropDownListFor(model => model.Gender)
@@ -43,7 +51,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Birthday, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Birthday)
+                @Html.EditorFor(model => model.Birthday, new { htmlAttributes = new { @Value = @Model.Birthday.ToString("yyyy-MM-dd"), @class = "customclass" } })
                 @Html.ValidationMessageFor(model => model.Birthday)
             </div>
         </div>

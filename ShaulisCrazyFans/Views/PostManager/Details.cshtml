@@ -14,8 +14,25 @@
     @{string imgName = "/Uploads/" + @Model.Id + ".png";}
    @if (File.Exists(Server.MapPath("~" + imgName)))
    {
-        <img src="@imgName"/>
-    }
+        <div id="@(Model.Id + "div")">
+            <img src="@imgName" id="@(Model.Id + "img")" />            
+            <script>
+                setTimeout(function () {
+                    var container = document.getElementById("@(Model.Id + "div")");
+                    var img = document.getElementById("@(Model.Id + "img")");
+                    var canvas = document.createElement("canvas");
+                    canvas.id = "canvas" + "@(Model.Id)";
+                    canvas.width = 320;
+                    canvas.height = 240;
+                    container.appendChild(canvas);
+                    var context = canvas.getContext("2d");
+                    context.drawImage(img, 0, 0, 320, 240);
+                    img.remove();
+                }, 100);
+            </script>
+
+        </div>
+   }
     @{string vidName = "/Uploads/" + @Model.Id + ".mp4";}
     @if (File.Exists(Server.MapPath("~" + vidName)))
     {

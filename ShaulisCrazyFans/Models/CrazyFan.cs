@@ -25,6 +25,8 @@ namespace ShaulisCrazyFans.Models
         [DisplayName("Last Name")]
         public string LastName { get; set; }
 
+        public string City { get; set; }
+
         public Gender Gender { get; set; }
 
         [DataType(DataType.Date)]
