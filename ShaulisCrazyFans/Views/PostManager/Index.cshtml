@@ -6,6 +6,9 @@
 
 <h2>Posts:</h2>
 
+<p>
+    @Html.ActionLink("Add New Post", "Create")
+</p>
 <table class="table">
     <tr>
         <th>
@@ -35,6 +38,5 @@
 }
 
 </table>
-<p>
-    @Html.ActionLink("Add New Post", "Create")
-</p>
+<br />
+<h3>@Html.ActionLink("Posts distribution by Months", "PostsByMonthView")</h3>

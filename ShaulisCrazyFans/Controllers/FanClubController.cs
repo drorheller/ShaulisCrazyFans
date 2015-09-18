@@ -156,7 +156,10 @@ namespace ShaulisCrazyFans.Controllers
 
             foreach (var currFan in db.CrazyFans)
             {
-                lstFansLocations.Add(currFan.City + "," + currFan.FirstName + " " + currFan.LastName);
+                if (!String.IsNullOrEmpty(currFan.City))
+                {
+                    lstFansLocations.Add(currFan.City + "," + currFan.FirstName + " " + currFan.LastName);
+                }
             }
 
             ViewBag.Locations = lstFansLocations.ToArray();
