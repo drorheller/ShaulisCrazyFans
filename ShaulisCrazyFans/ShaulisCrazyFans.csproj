@@ -166,6 +166,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ProtectedHelper.cs" />
     <Compile Include="Migrations\201509180816570_init.cs" />
     <Compile Include="Migrations\201509180816570_init.Designer.cs">
       <DependentUpon>201509180816570_init.cs</DependentUpon>
@@ -185,6 +186,17 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\desgine_for_blog.css" />
     <Content Include="Content\design.css" />
+    <Content Include="Content\images\col-graph-icon.png" />
+    <Content Include="Content\images\flower.png" />
+    <Content Include="Content\images\intro_background.png" />
+    <Content Include="Content\images\intro_flower.png" />
+    <Content Include="Content\images\intro_shauli.png" />
+    <Content Include="Content\images\map-icon.png" />
+    <Content Include="Content\images\nav_background.png" />
+    <Content Include="Content\images\pie-graph-icon.png" />
+    <Content Include="Content\images\rss.png" />
+    <Content Include="Content\images\sidebar_background.png" />
+    <Content Include="Content\images\sidebar_section_background.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -245,6 +257,8 @@
     <Content Include="Views\FanClub\FansByAgeView.cshtml" />
     <Content Include="Views\PostManager\PostsByMonthView.cshtml" />
     <Content Include="Views\FanClub\FansMap.cshtml" />
+    <Content Include="Views\PostManager\Login.cshtml" />
+    <Content Include="Views\Home\Statistics.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using ShaulisCrazyFans.Models;
+using ShaulisCrazyFans.Helpers;
 
 namespace ShaulisCrazyFans.Controllers
 {
@@ -15,6 +16,7 @@ namespace ShaulisCrazyFans.Controllers
         private CrazyFanDB db = new CrazyFanDB();
 
         // GET: /Comment/
+        [AdminMembership]
         public ActionResult Index(int id)
         {
             var comments = db.Comments.Include(c => c.Post);
@@ -22,6 +24,7 @@ namespace ShaulisCrazyFans.Controllers
         }
 
         // GET: /Comment/Details/5
+        [AdminMembership]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -36,7 +39,6 @@ namespace ShaulisCrazyFans.Controllers
             return View(comment);
         }
 
-        
         // GET: /Comment/Create
         public ActionResult Create(int id)
         {
@@ -65,6 +67,7 @@ namespace ShaulisCrazyFans.Controllers
         }
 
         // GET: /Comment/Edit/5
+        [AdminMembership]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -84,6 +87,7 @@ namespace ShaulisCrazyFans.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [AdminMembership]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include="Id,PostId,Title,Author,AuthorSite,Content")] Comment comment)
         {
@@ -98,6 +102,7 @@ namespace ShaulisCrazyFans.Controllers
         }
 
         // GET: /Comment/Delete/5
+        [AdminMembership]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -114,6 +119,7 @@ namespace ShaulisCrazyFans.Controllers
 
         // POST: /Comment/Delete/5
         [HttpPost, ActionName("Delete")]
+        [AdminMembership]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
