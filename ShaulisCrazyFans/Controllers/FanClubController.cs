@@ -48,7 +48,7 @@ namespace ShaulisCrazyFans.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="Id,FirstName,LastName,Gender,Birthday,TimeInClub")] CrazyFan crazyfan)
+        public ActionResult Create([Bind(Include="Id,FirstName,LastName,City,Gender,Birthday,TimeInClub")] CrazyFan crazyfan)
         {
             if (ModelState.IsValid)
             {
@@ -80,7 +80,7 @@ namespace ShaulisCrazyFans.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="Id,FirstName,LastName,Gender,Birthday,TimeInClub")] CrazyFan crazyfan)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,City,Gender,Birthday,TimeInClub")] CrazyFan crazyfan)
         {
             if (ModelState.IsValid)
             {
