@@ -1,0 +1,392 @@
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll.config
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.pdb
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.SqlServer.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Web.Infrastructure.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Owin.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\WebGrease.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.pdb
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.SqlServer.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csprojResolveAssemblyReference.cache
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.dll
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.pdb
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.InitialCreate.resources
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csproj.GenerateResource.Cache
+c:\users\iahel ramos\documents\visual studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init.resources
+c:\Users\Iahel Ramos\Documents\Visual Studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init1.resources
+c:\Users\Iahel Ramos\Documents\Visual Studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init2.resources
+c:\Users\Iahel Ramos\Documents\Visual Studio 2013\Projects\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init3.resources
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll.config
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.pdb
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.SqlServer.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Owin.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\WebGrease.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.pdb
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.SqlServer.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.InitialCreate.resources
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init.resources
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init1.resources
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init2.resources
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init3.resources
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csproj.GenerateResource.Cache
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.dll
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.pdb
+C:\Users\student\Downloads\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csprojResolveAssemblyReference.cache
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll.config
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.pdb
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Owin.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\WebGrease.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.pdb
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.SqlServer.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csprojResolveAssemblyReference.cache
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.dll
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.pdb
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init.resources
+C:\Users\Etai\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll.config
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.pdb
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Owin.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\WebGrease.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.pdb
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.SqlServer.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init.resources
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.dll
+C:\Users\student\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.pdb
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll.config
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.pdb
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Owin.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\WebGrease.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.pdb
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\EntityFramework.SqlServer.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csprojResolveAssemblyReference.cache
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init.resources
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csproj.GenerateResource.Cache
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.dll
+C:\Users\litovet\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.pdb
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll.config
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.pdb
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Owin.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\WebGrease.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.pdb
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init.resources
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csproj.GenerateResource.Cache
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.dll
+C:\Users\Ori\Desktop\איתי_ליטוב_302164215_יעל רמוס_310103700\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.pdb
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll.config
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\ShaulisCrazyFans.pdb
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Owin.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\WebGrease.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Helpers.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Mvc.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Razor.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.WebPages.Razor.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\System.Web.Optimization.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Newtonsoft.Json.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Antlr3.Runtime.pdb
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csprojResolveAssemblyReference.cache
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.Migrations.init.resources
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.csproj.GenerateResource.Cache
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.dll
+C:\Users\hellerdr\Desktop\ShaulisCrazyFans\ShaulisCrazyFans\obj\Debug\ShaulisCrazyFans.pdb

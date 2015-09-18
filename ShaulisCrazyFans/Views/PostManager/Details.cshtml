@@ -1,0 +1,32 @@
+﻿@model ShaulisCrazyFans.Models.Post
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<header>
+    <h2>@Html.DisplayFor(model => model.Title)</h2>
+    <p>Posted on <time datetime="2009-06-29T23:31+01:00">@Html.DisplayFor(model => model.ReleaseDate)</time> by <a href="@Html.DisplayFor(model => model.AuthorSite)">@Html.DisplayFor(model => model.Author)</a></p>
+</header>
+<div>
+    <p>@Html.DisplayFor(model => model.Content)</p>
+    @{string imgName = "/Uploads/" + @Model.Id + ".png";}
+   @if (File.Exists(Server.MapPath("~" + imgName)))
+   {
+        <img src="@imgName"/>
+    }
+    @{string vidName = "/Uploads/" + @Model.Id + ".mp4";}
+    @if (File.Exists(Server.MapPath("~" + vidName)))
+    {
+        <video controls="controls">
+            <source src="@vidName" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    }
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

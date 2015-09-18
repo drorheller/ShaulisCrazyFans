@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "FansByAgeView";
+}
+
+@section Styles {
+    <style>
+        .arc path {
+            stroke: #fff;
+        }
+    </style>
+}
+
+@section Scripts {
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script>
+function DrawGraph(data) {
+        var width = 600,
+            height = 400,
+            radius = Math.min(width, height) / 2;
+
+        var color = d3.scale.ordinal()
+            .range(["#277707", "#349B0B", "#43C410", "#55F317", "#a05d56", "#d0743c", "#ff8c00"]);
+
+        var arc = d3.svg.arc()
+            .outerRadius(radius - 10)
+            .innerRadius(0);
+
+        var pie = d3.layout.pie()
+            .sort(null)
+            .value(function (d) { return d.population; });
+
+        var svg = d3.select("body").select("#svg")
+            .attr("width", width)
+            .attr("height", height)
+            .attr()
+            .append("g")
+            .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+        data = d3.csv.parse(data);
+
+        data.forEach(function (d) {
+            d.population = +d.population;
+        });
+
+        var g = svg.selectAll(".arc")
+            .data(pie(data))
+            .enter().append("g")
+            .attr("class", "arc");
+
+        g.append("path")
+            .attr("d", arc)
+            .style("fill", function (d) { return color(d.data.age); });
+
+        g.append("text")
+            .attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
+            .attr("dy", ".35em")
+            .style("text-anchor", "middle")
+            .text(function (d) { return d.data.age; });
+}
+</script>
+}
+
+<h2>Fans distribution by Age</h2>
+
+@{
+    string CountGroupA = ((String)ViewBag.GraphData).Split('\n')[1].Split(',')[1];
+    string CountGroupB = ((String)ViewBag.GraphData).Split('\n')[2].Split(',')[1];
+    string CountGroupC = ((String)ViewBag.GraphData).Split('\n')[3].Split(',')[1];
+    int Total = CountGroupA.AsInt() + CountGroupB.AsInt() + CountGroupC.AsInt();
+}
+
+<table class="table">
+    <tr>
+        <th>
+            Age
+        </th>
+        <th>
+            Number of Fans
+        </th>
+    </tr>
+    <tr>
+        <td>
+            0-20
+        </td>
+        <td>
+            @CountGroupA
+        </td>
+    </tr>
+    <tr>
+        <td>
+            20-40
+        </td>
+        <td>
+            @CountGroupB
+        </td>
+    </tr>
+    <tr>
+        <td>
+            40+
+        </td>
+        <td>
+            @CountGroupC
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <b>Total Fans: @Total</b>
+        </td>
+    </tr>
+</table>
+
+<div>
+    <input id="data" type="hidden" value="@ViewBag.GraphData" />
+    <svg id="svg" onload='DrawGraph(document.getElementById("data").value)' />
+</div>

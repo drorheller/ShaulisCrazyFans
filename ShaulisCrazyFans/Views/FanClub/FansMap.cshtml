@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "FansMap";
+}
+
+@section Scripts {
+    <script type="text/javascript"
+            src="https://maps.google.com/maps/api/js?sensor=false">
+    </script>
+    <script type="text/javascript">
+    var map;
+    $(document).ready(function () {
+        initialize();
+
+        var arrLocations = @Html.Raw(Json.Encode(@ViewBag.Locations));
+        for(var i = 0; i < arrLocations.length; i++) {
+            addMarker(arrLocations[i], "test");
+        }
+    });
+    function initialize() {
+        var mapOptions = {
+            center: new google.maps.LatLng(31.382911, 35.030984),
+            zoom: 8,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            disableDefaultUI: true,
+            scrollwheel: false,
+            draggable: false,
+            disableDoubleClickZoom: true
+        };
+        map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+    }
+    function addMarker(name, label) {
+        $.post("@Url.Action("GetCoordinatesByCityName", "FanClub")", { city: name }, function (data) {
+            setMarker(data.split(',')[0], data.split(',')[1], label);
+        });
+    }
+    function setMarker(x, y, name) {
+        var latlng = new google.maps.LatLng(x, y);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: name
+        });
+    }
+</script>
+}
+
+<h2>Fans Locations Map</h2>
+
+<div id="map_canvas" style="width: 400px; height: 850px;">
+</div> 
