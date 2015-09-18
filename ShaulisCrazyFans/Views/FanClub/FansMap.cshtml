@@ -14,7 +14,9 @@
 
         var arrLocations = @Html.Raw(Json.Encode(@ViewBag.Locations));
         for(var i = 0; i < arrLocations.length; i++) {
-            addMarker(arrLocations[i], "test");
+            var fanLocation = arrLocations[i].split(',')[0];
+            var fanName = arrLocations[i].split(',')[1];
+            addMarker(fanLocation, fanName);
         }
     });
     function initialize() {

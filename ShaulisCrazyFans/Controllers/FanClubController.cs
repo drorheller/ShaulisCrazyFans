@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using ShaulisCrazyFans.Models;
 using System.IO;
 using System.Xml.Linq;
+using System.Collections;
 
 namespace ShaulisCrazyFans.Controllers
 {
@@ -151,8 +152,15 @@ namespace ShaulisCrazyFans.Controllers
 
         public ActionResult FansMap()
         {
-            string[] arrLocations = new string[] { "Ashdod", "Haifa", "Eilat" };
-            ViewBag.Locations = arrLocations;
+            List<string> lstFansLocations = new List<string>();
+
+            foreach (var currFan in db.CrazyFans)
+            {
+                lstFansLocations.Add("CityName" + "," + currFan.FirstName + " " + currFan.LastName);
+            }
+
+            //ViewBag.Locations = lstFansLocations.ToArray();
+            ViewBag.Locations = new string[] { "Ashkelon,Ori David", "Rishon Letziyon,Dror Heller", "Gan Yavne,Itai Litov" };
             return View();
         }
 
