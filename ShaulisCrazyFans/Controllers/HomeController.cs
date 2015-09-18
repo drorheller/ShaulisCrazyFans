@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ShaulisCrazyFans.Models;
+using System.Xml.Linq;
+using System.IO;
+using System.Net;
 
 namespace ShaulisCrazyFans.Controllers
 {
@@ -33,6 +36,17 @@ namespace ShaulisCrazyFans.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+
+
+        public MvcHtmlString GetWeatherReport()
+        {
+            using (WebClient wc = new WebClient())
+            {
+                string json = wc.DownloadString("http://api.openweathermap.org/data/2.5/weather?q=Tel%20Aviv");
+
+                return MvcHtmlString.Create(json);
+            }
         }
     }
 }
