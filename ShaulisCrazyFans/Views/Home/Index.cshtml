@@ -5,144 +5,108 @@
             
 <section>
     <div>
-        <form>
-            <h3>Search here for your favorite post</h3>
-            <p>
-                <label for="date">By date: </label>
-                <input type="date" name="date_start"> to <input type="date" name="date_end" />
-            </p>
-            <p>
-                <label for="write_name">By post writer name: </label>
-                <input type="text" name="writer_name" />
-            </p>
-            <p>
-                <label for="writer_email">By post writer email: </label>
-                <input type="email" name="writer_email" />
-            </p>
-            <p>
-                <label for="keywords">By keywords: </label>
-                <input type="text" name="keywords" />
-            </p>
-            <p>
-                <label for="comments_num">By minimum comments: </label>
-                <input type="range" name="comments_num" min="0" max="10" onchange="updateTextInput(this.value);">
-                &nbsp <label id="comments_number" for="comments_num" style="text-align:left" />
-            </p>
-            <input type="submit" value="Filter">
+        <form action="#" method="post">
+            <h3>Filter Posts By:</h3>
+            <br />
+            <!-- Date boxes for filtering using dates -->
+            <p><label>Dates Range: </label><input type="date" name="filter_date_start"> to <input type="date" name="filter_date_end"></p>
+            <p><label>Writer: </label><input type="text" name="filter_writer"></p>
+            <!-- Make email address valid -->
+            <p><label>Email: </label><input type="email" name="filter_email"></p>
+            <p><label>Keywords: </label><input type="text" name="filter_keywords"></p>
+            <!-- Make comment numbers within range of 1 - 10 -->
+            <p><label>Minimum Comments: </label><input type="number" name="filter_min_comments" min="1" max="10" value="1"></p>
+            <p><input type="submit" value="Filter"></p>
         </form>
     </div>
 </section>
 
-@foreach (var item in Model) {
-    <section>
-        <article class="blogPost">
-            <header>
-                <h2>@item.Title</h2>
-                <p>Posted on <time datetime="2009-06-29T23:31+01:00">@item.ReleaseDate</time> by <a href="@item.AuthorSite">@item.Author</a> - <a href="#comments">@item.Comments.Count</a></p>
-            </header>
+@foreach (var item in Model)
+{
+    <article class="blogPost">
+        <header>
+            <h2>@item.Title</h2>
+            <p>Posted on @item.ReleaseDate by <a href="@item.AuthorSite">@item.Author</a> - <a href="#comments">@item.Comments.Count comments</a></p>
+        </header>
+        <div>
+            <p>@item.Content</p>
+        </div>
+        @if (File.Exists(Server.MapPath("~/Uploads/") + item.Id + ".png"))
+        {
             <div id="@(item.Id + "div")">
-                <p>@item.Content</p>
-                @{string imgName = "/Uploads/" + @item.Id + ".png";}
-                @if (File.Exists(Server.MapPath("~" + imgName)))
-                {
-                    <img src="@imgName" id="@(item.Id + "img")" />
-                    <script>
-                        setTimeout(function () {
-                            var container = document.getElementById("@(item.Id + "div")");
-                            var img = document.getElementById("@(item.Id + "img")");
-                            var canvas = document.createElement("canvas");
-                            canvas.id = "canvas" + "@(item.Id)";
-                            canvas.width = 320;
-                            canvas.height = 240;
-                            container.appendChild(canvas);
-                            var context = canvas.getContext("2d");
-                            context.drawImage(img, 0, 0, 320, 240);
-                            img.remove();
-                        }, 100);
-                    </script>
-                }
-                @{string vidName = "/Uploads/" + @item.Id + ".mp4";}
-                @if (File.Exists(Server.MapPath("~" + vidName)))
-                {
-                    <video controls="controls">
-                        <source src="@vidName" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
-                }
-
-
+                <img id="@(item.Id + "img")" src="~/Uploads/@(item.Id + ".png")" width="340" style="visibility: visible;" />
+                <script>
+                    setTimeout(function () {
+                        var container = document.getElementById("@(item.Id + "div")");
+                        var img = document.getElementById("@(item.Id + "img")");
+                        var canvas = document.createElement("canvas");
+                        canvas.id = "canvas" + "@(item.Id)";
+                        canvas.width = 320;
+                        canvas.height = 240;
+                        container.appendChild(canvas);
+                        var context = canvas.getContext("2d");
+                        context.drawImage(img, 0, 0, 320, 240/*, 0, 0, 320, 240*/);
+                        img.remove();
+                    }, 100);
+                </script>
             </div>
-
-        </article>
-    </section>
+        }
+        <br />
+        @if (File.Exists(Server.MapPath("~/Uploads/") + item.Id + ".mp4"))
+        {
+            <div>
+                <video width="320" height="240" controls preload="auto">
+                    <source src="~/Uploads/@(item.Id + ".mp4")" />
+                </video>
+            </div>
+        }
+    </article>
     <section id="comments">
-    <h3>Comments</h3>
-        @foreach(var comment in item.Comments)
+        <h3>Comments</h3>
+        @foreach (var comment in item.Comments)
         {
             <article>
                 <header>
-                    <a href="@comment.AuthorSite">@comment.Author</a> on <time datetime="2009-06-29T23:35:20+01:00">@comment.ReleaseDate</time>
+                    <a href="@comment.AuthorSite">@comment.Author</a>
                 </header>
-                <h2>@comment.Title</h2>
+                <p style="font-weight:bold">@comment.Title</p>
                 <p>@comment.Content</p>
             </article>
         }
-        </section>
+    </section>
         
-        using (Html.BeginForm("Create", "Home")){
+    using (Html.BeginForm("Create", "Home")) {
         @Html.AntiForgeryToken()
     
         ShaulisCrazyFans.Models.Comment c = (ShaulisCrazyFans.Models.Comment)ViewBag.NewComment;        
     
         <div class="form-horizontal">
-            <h4>Comment</h4>
-            <hr />
+            <h3>Post a comment</h3>
             @Html.ValidationSummary(true)
-
             @Html.Hidden("c.PostId", (int)item.Id)
-
-            <div class="form-group">
+            <p>
                 @Html.LabelFor(model => c.Title, new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => c.Title)
-                    @Html.ValidationMessageFor(model => c.Title)
-                </div>
-            </div>
-
-            <div class="form-group">
+                @Html.EditorFor(model => c.Title)
+                @Html.ValidationMessageFor(model => c.Title)
+            </p>
+            <p>
                 @Html.LabelFor(model => c.Author, new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => c.Author)
-                    @Html.ValidationMessageFor(model => c.Author)
-                </div>
-            </div>
-
-            <div class="form-group">
+                @Html.EditorFor(model => c.Author)
+                @Html.ValidationMessageFor(model => c.Author)
+            </p>
+            <p>
                 @Html.LabelFor(model => c.AuthorSite, new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => c.AuthorSite)
-                    @Html.ValidationMessageFor(model => c.AuthorSite)
-                </div>
-            </div>
-
-            <div class="form-group">
+                @Html.EditorFor(model => c.AuthorSite)
+                @Html.ValidationMessageFor(model => c.AuthorSite)
+            </p>
+            <p>
                 @Html.LabelFor(model => c.Content, new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                   
-                    @Html.EditorFor(model => c.Content)
-                    @Html.ValidationMessageFor(model => c.Content)
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Create" class="btn btn-default" />
-                </div>
-            </div>
-                  
-
-           
+                @Html.TextAreaFor(model => c.Content)
+                @Html.ValidationMessageFor(model => c.Content)
+            </p>
+            <p>
+                <input type="submit" value="Post comment" class="btn btn-default" />
+            </p>
         </div>
     }
-
- }
+}

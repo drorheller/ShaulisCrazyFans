@@ -24,7 +24,7 @@ namespace ShaulisCrazyFans
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/desgine_for_blog.css"));
+                      "~/Content/design.css"));
         }
     }
 }
