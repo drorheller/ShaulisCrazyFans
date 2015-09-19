@@ -7,57 +7,52 @@
 <h2>Delete</h2>
 
 <h3>Are you sure you want to delete this?</h3>
+<hr /><br />
 <div>
-    <h4>Post</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Author)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Author)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.AuthorSite)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.AuthorSite)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.ReleaseDate)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ReleaseDate)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Content)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Content)
-        </dd>
-
-    </dl>
+    <article class="blogPost">
+        <header>
+            <h2>@Model.Title</h2>
+            <p>Posted on @Model.ReleaseDate by <a href="@Model.AuthorSite">@Model.Author</a> - <a href="#comments">@Model.Comments.Count comments</a></p>
+        </header>
+        <div>
+            <p>@Model.Content</p>
+        </div>
+        @if (File.Exists(Server.MapPath("~/Uploads/") + Model.Id + ".png"))
+        {
+            <div id="@(Model.Id + "div")">
+                <img id="@(Model.Id + "img")" src="~/Uploads/@(Model.Id + ".png")" width="340" style="visibility: visible;" />
+                <script>
+                setTimeout(function () {
+                    var container = document.getElementById("@(Model.Id + "div")");
+                    var img = document.getElementById("@(Model.Id + "img")");
+                    var canvas = document.createElement("canvas");
+                    canvas.id = "canvas" + "@(Model.Id)";
+                    canvas.width = 320;
+                    canvas.height = 240;
+                    container.appendChild(canvas);
+                    var context = canvas.getContext("2d");
+                    context.drawImage(img, 0, 0, 320, 240/*, 0, 0, 320, 240*/);
+                    img.remove();
+                }, 100);
+                </script>
+            </div>
+        }
+        <br />
+        @if (File.Exists(Server.MapPath("~/Uploads/") + Model.Id + ".mp4"))
+        {
+            <div>
+                <video width="320" height="240" controls preload="auto">
+                    <source src="~/Uploads/@(Model.Id + ".mp4")" />
+                </video>
+            </div>
+        }
+    </article>
 
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
+        <div>
+            <input type="submit" value="Delete" /> |
             @Html.ActionLink("Back to List", "Index")
         </div>
     }

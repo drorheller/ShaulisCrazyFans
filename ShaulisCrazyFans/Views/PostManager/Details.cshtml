@@ -4,18 +4,21 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
-<header>
-    <h2>@Html.DisplayFor(model => model.Title)</h2>
-    <p>Posted on <time datetime="2009-06-29T23:31+01:00">@Html.DisplayFor(model => model.ReleaseDate)</time> by <a href="@Html.DisplayFor(model => model.AuthorSite)">@Html.DisplayFor(model => model.Author)</a></p>
-</header>
-<div>
-    <p>@Html.DisplayFor(model => model.Content)</p>
-    @{string imgName = "/Uploads/" + @Model.Id + ".png";}
-   @if (File.Exists(Server.MapPath("~" + imgName)))
-   {
+<h2>Post Details</h2>
+<hr /><br />
+
+<article class="blogPost">
+    <header>
+        <h2>@Model.Title</h2>
+        <p>Posted on @Model.ReleaseDate by <a href="@Model.AuthorSite">@Model.Author</a> - <a href="#comments">@Model.Comments.Count comments</a></p>
+    </header>
+    <div>
+        <p>@Model.Content</p>
+    </div>
+    @if (File.Exists(Server.MapPath("~/Uploads/") + Model.Id + ".png"))
+    {
         <div id="@(Model.Id + "div")">
-            <img src="@imgName" id="@(Model.Id + "img")" />            
+            <img id="@(Model.Id + "img")" src="~/Uploads/@(Model.Id + ".png")" width="340" style="visibility: visible;" />
             <script>
                 setTimeout(function () {
                     var container = document.getElementById("@(Model.Id + "div")");
@@ -26,22 +29,23 @@
                     canvas.height = 240;
                     container.appendChild(canvas);
                     var context = canvas.getContext("2d");
-                    context.drawImage(img, 0, 0, 320, 240);
+                    context.drawImage(img, 0, 0, 320, 240/*, 0, 0, 320, 240*/);
                     img.remove();
                 }, 100);
             </script>
-
         </div>
-   }
-    @{string vidName = "/Uploads/" + @Model.Id + ".mp4";}
-    @if (File.Exists(Server.MapPath("~" + vidName)))
-    {
-        <video controls="controls">
-            <source src="@vidName" type="video/mp4" />
-            Your browser does not support the video tag.
-        </video>
     }
-</div>
+    <br />
+    @if (File.Exists(Server.MapPath("~/Uploads/") + Model.Id + ".mp4"))
+    {
+        <div>
+            <video width="320" height="240" controls preload="auto">
+                <source src="~/Uploads/@(Model.Id + ".mp4")" />
+            </video>
+        </div>
+    }
+</article>
+<br />
 
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |

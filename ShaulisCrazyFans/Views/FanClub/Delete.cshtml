@@ -8,64 +8,40 @@
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>CrazyFan</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.FirstName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.FirstName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.LastName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LastName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.City)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.City)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Gender)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Gender)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Birthday)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Birthday)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TimeInClub)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TimeInClub)
-        </dd>
-
-    </dl>
+    <div>
+        <form>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.FirstName)</label>
+                @Html.DisplayFor(model => model.FirstName)
+            </p>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.LastName)</label>
+                @Html.DisplayFor(model => model.LastName)
+            </p>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.City)</label>
+                @Html.DisplayFor(model => model.City)
+            </p>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.Gender)</label>
+                @Html.DisplayFor(model => model.Gender)
+            </p>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.Birthday)</label>
+                @Html.DisplayFor(model => model.Birthday)
+            </p>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.TimeInClub)</label>
+                @Html.DisplayFor(model => model.TimeInClub)
+            </p>
+        </form>
+    </div>
 
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
+        <div>
+            <input type="submit" value="Delete" /> |
             @Html.ActionLink("Back to List", "Index")
         </div>
     }

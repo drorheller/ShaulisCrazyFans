@@ -4,54 +4,35 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Comment Details</h2>
 
 <div>
-    <h4>Comment</h4>
-	<hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Post.Title)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Post.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-
-        <dd>
+    <form>
+        <p>
+            <label style="font-size: 16px">Belong to Post: </label>
+            <span style="font-size: 20px">@Html.DisplayFor(model => model.Post.Title)</span>
+            <span style="font-size: 14px; font-style: italic; color: #777;">&nbsp; by @Html.DisplayFor(model => model.Post.Author), Posted on @Model.Post.ReleaseDate</span>
+        </p>
+        <hr /><br />
+        <p>
+            <label>@Html.DisplayNameFor(model => model.Title)</label>
             @Html.DisplayFor(model => model.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Author)
-        </dt>
-
-        <dd>
+        </p>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.Author)</label>
             @Html.DisplayFor(model => model.Author)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.AuthorSite)
-        </dt>
-
-        <dd>
+        </p>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.AuthorSite)</label>
             @Html.DisplayFor(model => model.AuthorSite)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Content)
-        </dt>
-
-        <dd>
+        </p>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.Content)</label>
             @Html.DisplayFor(model => model.Content)
-        </dd>
-
-    </dl>
+        </p>
+    </form>
 </div>
+<hr /><br />
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
     @Html.ActionLink("Back to List", "Index", new { id = Model.PostId })

@@ -8,56 +8,38 @@
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>Comment</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Post.Title)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Post.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Author)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Author)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.AuthorSite)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.AuthorSite)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Content)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Content)
-        </dd>
-
-    </dl>
+    <div>
+        <form>
+            <p>
+                <label style="font-size: 16px">Belong to Post: </label>
+                <span style="font-size: 20px">@Html.DisplayFor(model => model.Post.Title)</span>
+                <span style="font-size: 14px; font-style: italic; color: #777;">&nbsp; by @Html.DisplayFor(model => model.Post.Author), Posted on @Model.Post.ReleaseDate</span>
+            </p>
+            <hr /><br />
+            <p>
+                <label>@Html.DisplayNameFor(model => model.Title)</label>
+                @Html.DisplayFor(model => model.Title)
+            </p>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.Author)</label>
+                @Html.DisplayFor(model => model.Author)
+            </p>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.AuthorSite)</label>
+                @Html.DisplayFor(model => model.AuthorSite)
+            </p>
+            <p>
+                <label>@Html.DisplayNameFor(model => model.Content)</label>
+                @Html.DisplayFor(model => model.Content)
+            </p>
+        </form>
+    </div>
 
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
+        <div>
+            <input type="submit" value="Delete" /> |
             @Html.ActionLink("Back to List", "Index", new { id = Model.PostId })
         </div>
     }

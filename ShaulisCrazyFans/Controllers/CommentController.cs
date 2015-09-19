@@ -32,6 +32,7 @@ namespace ShaulisCrazyFans.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Comment comment = db.Comments.Find(id);
+            comment.Post = db.Posts.Find(comment.PostId);
             if (comment == null)
             {
                 return HttpNotFound();
@@ -110,6 +111,7 @@ namespace ShaulisCrazyFans.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Comment comment = db.Comments.Find(id);
+            comment.Post = db.Posts.Find(comment.PostId);
             if (comment == null)
             {
                 return HttpNotFound();

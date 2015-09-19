@@ -4,62 +4,37 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Fan Details</h2>
 
 <div>
-    <h4>CrazyFan</h4>
-	<hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.FirstName)
-        </dt>
-
-        <dd>
+    <form>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.FirstName)</label>
             @Html.DisplayFor(model => model.FirstName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.LastName)
-        </dt>
-
-        <dd>
+        </p>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.LastName)</label>
             @Html.DisplayFor(model => model.LastName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.City)
-        </dt>
-
-        <dd>
+        </p>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.City)</label>
             @Html.DisplayFor(model => model.City)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Gender)
-        </dt>
-
-        <dd>
+        </p>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.Gender)</label>
             @Html.DisplayFor(model => model.Gender)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Birthday)
-        </dt>
-
-        <dd>
+        </p>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.Birthday)</label>
             @Html.DisplayFor(model => model.Birthday)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TimeInClub)
-        </dt>
-
-        <dd>
+        </p>
+        <p>
+            <label>@Html.DisplayNameFor(model => model.TimeInClub)</label>
             @Html.DisplayFor(model => model.TimeInClub)
-        </dd>
-
-    </dl>
+        </p>
+    </form>
 </div>
+<hr /><br />
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
     @Html.ActionLink("Back to List", "Index")
