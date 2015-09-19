@@ -15,13 +15,6 @@
         <hr />
         @Html.ValidationSummary(true)
 
-        @*<div class="form-group">
-            @Html.LabelFor(model => model.PostId, "PostId", new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("PostId", String.Empty)
-                @Html.ValidationMessageFor(model => model.PostId)
-            </div>
-        </div>*@
         @Html.Hidden("PostId", (int)ViewBag.PostId)
 
         <div class="form-group">
