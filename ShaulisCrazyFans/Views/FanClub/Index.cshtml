@@ -2,10 +2,25 @@
 
 @{
     ViewBag.Title = "Index";
+    ShaulisCrazyFans.Models.CrazyFan modelForEnum = new ShaulisCrazyFans.Models.CrazyFan();
 }
 
 <h2>Your Crazy Fans</h2>
 
+<div>
+    <form action="#" method="post">
+        <h3>Filter Fans By:</h3>
+        <br />
+        <p><label>First Name: </label><input type="text" name="filter_first_name" style="width:200px" /></p>
+        <p><label>Last Name: </label><input type="text" name="filter_last_name" style="width:200px" /></p>
+        <p><label>City: </label><input type="text" name="filter_city" style="width:200px" /></p>
+        <p><label>Gender: </label>@Html.EnumDropDownListFor(model => modelForEnum.Gender,"")</p>
+        <script type="text/javascript">document.getElementById("modelForEnum_Gender").selectedIndex = 0</script>
+        <p><label>Time In Club: </label> At least &nbsp;<input type="number" name="filter_min_time_in_club" min="1" max="50" style="width:50px">&nbsp; years</p>
+        <p><input type="submit" value="Filter"></p>
+    </form>
+</div>
+<hr /><br />
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
