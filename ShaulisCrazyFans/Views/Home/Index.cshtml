@@ -5,19 +5,19 @@
             
 <section>
     <div>
-        <form action="#" method="post">
+        @using (Html.BeginForm("Search", "Home")) {
             <h3>Filter Posts By:</h3>
             <br />
             <!-- Date boxes for filtering using dates -->
             <p><label>Dates Range: </label><input type="date" name="filter_date_start"> to <input type="date" name="filter_date_end"></p>
             <p><label>Writer: </label><input type="text" name="filter_writer"></p>
             <!-- Make email address valid -->
-            <p><label>Email: </label><input type="email" name="filter_email"></p>
+            <p><label>Title: </label><input type="text" name="filter_title"></p>
             <p><label>Keywords: </label><input type="text" name="filter_keywords"></p>
             <!-- Make comment numbers within range of 1 - 10 -->
-            <p><label>Minimum Comments: </label><input type="number" name="filter_min_comments" min="1" max="10" value="1"></p>
+            <p><label>Minimum Comments: </label><input type="number" name="filter_min_comments" min="1" max="10"></p>
             <p><input type="submit" value="Filter"></p>
-        </form>
+        }
     </div>
     <hr /><br />
 </section>

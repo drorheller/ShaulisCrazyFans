@@ -16,11 +16,26 @@ namespace ShaulisCrazyFans.Controllers
     public class FanClubController : Controller
     {
         private CrazyFanDB db = new CrazyFanDB();
+        private static Func<CrazyFan, bool> filter = (c => true);
+        private static bool newFilter = false;
 
         // GET: /FanClub/
         public ActionResult Index()
         {
-            return View(db.CrazyFans.ToList());
+            if (!newFilter)
+                filter = (p => true);
+            newFilter = false;
+            return View(db.CrazyFans.ToList().Where(filter).ToList());
+        }
+        public ActionResult Search(string filter_first_name, string filter_last_name, string filter_city, int? filter_min_time_in_club)
+        {
+            filter = (c => (
+                      (filter_first_name == "" || (filter_first_name != "" && filter_first_name == c.FirstName)) &&
+                      (filter_last_name == "" || (filter_last_name != "" && filter_last_name == c.LastName)) &&
+                      (filter_city == "" || (filter_city != "" && filter_city == c.City)) &&
+                      (filter_min_time_in_club == null || (filter_min_time_in_club != null && filter_min_time_in_club <= c.TimeInClub)) ));
+            newFilter = true;
+            return RedirectToAction("Index");
         }
 
         // GET: /FanClub/Details/5

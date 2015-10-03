@@ -13,12 +13,30 @@ namespace ShaulisCrazyFans.Controllers
     public class HomeController : Controller
     {
         private CrazyFanDB db = new CrazyFanDB();
+        private static Func<Post, bool> filter = (p => true);
+        private static bool newFilter = false;
 
         public ActionResult Index()
         {
+            if (!newFilter)
+                filter = (p => true);
+            newFilter = false;
             Comment comment = new Comment();
             ViewBag.NewComment = comment;
-            return View(db.Posts.Include("Comments").ToList());
+            return View(db.Posts.Include("Comments").ToList().Where(filter).ToList());
+        }
+
+        public ActionResult Search(DateTime? filter_date_start, DateTime? filter_date_end, string filter_writer, string filter_title, string filter_keywords, int? filter_min_comments)
+        {
+            filter = (p => (
+                      (filter_date_start == null || (filter_date_start != null && filter_date_start <= p.ReleaseDate)) &&
+                      (filter_date_end == null || (filter_date_end != null && filter_date_end >= p.ReleaseDate)) &&
+                      (filter_writer == "" || (filter_writer != "" && filter_writer == p.Author)) &&
+                      (filter_title == "" || (filter_title != "" && filter_title == p.Title)) &&
+                      (filter_keywords == "" || (filter_keywords != "" && p.Content.Contains(filter_keywords))) &&
+                      (filter_min_comments == null || (filter_min_comments != null && filter_min_comments <= p.Comments.Count)) ));
+            newFilter = true;
+            return RedirectToAction("Index");
         }
 
         public ActionResult Statistics()
