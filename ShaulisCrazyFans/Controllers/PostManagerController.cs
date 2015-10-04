@@ -173,6 +173,13 @@ namespace ShaulisCrazyFans.Controllers
             return View();
         }
 
+        public PartialViewResult SearchPosts(string keyword)
+        {
+            // System.Threading.Thread.Sleep(2000);
+            var data = db.Posts.Where(f => f.Title.Contains(keyword) || f.Author.Contains(keyword)).ToList();
+            return PartialView("_SearchPostsPArtial", data);
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

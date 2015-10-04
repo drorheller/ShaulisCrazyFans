@@ -13,6 +13,7 @@
 <p>
     @Html.ActionLink("Add New Post", "Create")
 </p>
+<label>Search Posts: </label><input id="searchAjax" name="searchAjax" type="search" value="" title="Press Enter to search by title or author"/>
 <table class="table">
     <tr>
         <th>
@@ -24,22 +25,53 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Author)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.Id }) |
-            @Html.ActionLink("Comments", "Index", "Comment", new { id = item.Id }, null)
-        </td>
-    </tr>
-}
-
+    <tbody id="posts">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }) |
+                    @Html.ActionLink("Comments", "Index", "Comment", new { id = item.Id }, null)
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
+
 <br />
+
+@section Scripts {
+    <script>
+        //$('#searchAjax').click(function () {
+        $('#searchAjax').on('change', function () {
+            var keyword = $('#searchAjax').val();
+
+            if (!keyword) {
+                keyword = '';
+            }
+
+            $.ajax({
+                url: '/PostManager/SearchPosts',
+                contentType: 'application/html; charset=utf-8',
+                type: 'GET',
+                data: { keyword: keyword },
+                dataType: 'html'
+
+            })
+            .success(function (result) {
+                $('#posts').html(result);
+            })
+            .error(function (xhr, status) {
+                console.debug(status);
+            })
+        });
+    </script>
+    }
