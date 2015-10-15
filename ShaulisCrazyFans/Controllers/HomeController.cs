@@ -65,7 +65,7 @@ namespace ShaulisCrazyFans.Controllers
         {
             using (WebClient wc = new WebClient())
             {
-                string json = wc.DownloadString("http://api.openweathermap.org/data/2.5/weather?q=Tel%20Aviv&appid=bd82977b86bf27fb59a04b61b657fb6f");
+                string json = wc.DownloadString("http://api.openweathermap.org/data/2.5/weather?q=Tel%20Aviv&appid=27c15de27bbafd543500496e6ae3d73d");
 
                 return MvcHtmlString.Create(json);
             }
